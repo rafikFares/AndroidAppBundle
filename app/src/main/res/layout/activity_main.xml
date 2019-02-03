@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Alert Feature (Service)"
+        android:layout_margin="5dp"/>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+        <Button
+            android:id="@+id/bt_install_alert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="install"
+            tools:layout_editor_absoluteX="130dp"
+            tools:layout_editor_absoluteY="32dp"
+            android:layout_margin="20dp"/>
+
+        <Button
+            android:id="@+id/bt_enable_alert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="enable"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="130dp"
+            tools:layout_editor_absoluteY="32dp"
+            android:layout_margin="20dp"/>
+
+
+        <TextView
+            android:id="@+id/tv_info_alert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="- - - - - - - - -"
+            android:layout_margin="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_ressouce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:text="Sources are availables from module"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/bt_get_ressouce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="get"
+                android:visibility="invisible"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="32dp"
+                android:layout_margin="5dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Feature (Activity)"
+        android:layout_margin="5dp"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/bt_install_feature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="install"
+            tools:layout_editor_absoluteX="130dp"
+            tools:layout_editor_absoluteY="32dp"
+            android:layout_margin="20dp"/>
+
+        <Button
+            android:id="@+id/bt_enable_feature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="run"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="130dp"
+            tools:layout_editor_absoluteY="32dp"
+            android:layout_margin="20dp"/>
+
+
+        <TextView
+            android:id="@+id/tv_info_feature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="- - - - - - - - -"
+            android:layout_margin="20dp"/>
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars[2]"
+        android:layout_margin="20dp"/>
+
+</LinearLayout>

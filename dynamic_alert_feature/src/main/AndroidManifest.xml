@@ -1,0 +1,20 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="test.base.bundle.rafik.dynamic_alert_feature">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+
+    <dist:module
+        dist:onDemand="true"
+        dist:title="@string/title_dynamic_feature">
+        <dist:fusing dist:include="true" />
+    </dist:module>
+
+    <application>
+        <service android:name=".FeatureModuleService" />
+    </application>
+
+</manifest>
+

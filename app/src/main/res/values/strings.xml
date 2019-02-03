@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BundleApp@Demo</string>
+    <string name="title_dynamic_feature">dynamique-bundle-feature-test</string>
+    <string name="title_dynamic_Activity_feature">Activity Module</string>
+</resources>

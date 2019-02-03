@@ -1,0 +1,2 @@
+include ':app', ':dynamic_alert_feature', ':dynamic_activity_feature'
+
